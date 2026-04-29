@@ -1,0 +1,90 @@
+# 📈 Stock Market Time-Series Analysis (US & India)
+
+AI-based forecasting system comparing traditional econometric models (ARIMA) with deep learning models (LSTM) for stock market prediction.
+
+---
+
+## 🚀 Overview
+
+This project analyzes and forecasts stock market trends for:
+
+- 🇺🇸 S&P 500 (US Market)
+- 🇮🇳 NIFTY 50 (Indian Market)
+
+It focuses on comparing:
+- Statistical models (ARIMA)
+- Deep Learning models (LSTM)
+
+to understand which performs better in capturing market patterns.
+
+---
+
+## 🎯 Problem Statement
+
+Stock market prediction is complex due to noise and volatility.  
+Traditional models like ARIMA often fail to capture long-term dependencies.
+
+This project explores whether LSTM models can improve prediction accuracy over classical approaches.
+
+---
+
+## 🧠 Approach
+
+### 1. Data Collection
+- Historical stock data (S&P 500, NIFTY 50)
+
+### 2. Data Preprocessing
+- Handling missing values  
+- Normalization  
+- Time-series formatting  
+
+### 3. Models Implemented
+
+#### 🔹 ARIMA
+- Baseline statistical model  
+- Used for time-series forecasting  
+
+#### 🔹 LSTM (Deep Learning)
+- Captures sequential dependencies  
+- Designed for better long-term trend prediction  
+
+---
+
+## 📊 Results
+
+- LSTM showed improved performance over ARIMA in capturing trends  
+- Better handling of non-linear patterns  
+- More accurate forecasting in volatile conditions  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- NumPy, Pandas  
+- TensorFlow / Keras  
+- ARIMA (statsmodels)  
+
+---
+
+## 📌 Key Learnings
+
+- Deep learning models outperform traditional methods in complex datasets  
+- Financial data is highly noisy and difficult to model  
+- Model evaluation is as important as model building  
+
+---
+
+## 🚧 Future Improvements
+
+- Add Buy/Sell signal generation  
+- Integrate real-time stock data API  
+- Build interactive dashboard (Streamlit)  
+- Add news sentiment analysis  
+
+---
+
+## 📫 Connect
+
+- LinkedIn: https://www.linkedin.com/in/kiran-sangwan-ba4196380  
+- GitHub: https://github.com/kmanvi
